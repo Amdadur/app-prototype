@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <img id="logo" src="images/logo1.png" />
+        <ul id="ul-List"></ul>
+        <div>
+            <input id="input" type="text" placeholder="Type in ingredient" />
+            <button id="submit" type="button" onclick="getInputValue()">
+                Add to list
+            </button>
+        </div>
+        <div id="page-body">
+            <h2 id="rec-header">Recommended Meals</h2>
+
+            <div id="recommended">
+                <div id="rec-1" onclick="showCard()">
+                    <div id="rec-bac"></div>
+                    <img id="rec-img" class="dish" />
+                    <h3 id="rec-h3"></h3>
+                    <p id="rec-cals"></p>
+                    <p id="rec-mins"></p>
+                    <img id="rec-buy" src="images/basket.png" />
+                </div>
+
+                <div id="rec-2">
+                    <div id="rec-bac-2"></div>
+                    <img id="rec-img-2" class="dish" />
+                    <h3 id="rec-h3-2"></h3>
+                    <p id="rec-cals-2"></p>
+                    <p id="rec-mins-2"></p>
+                    <img id="rec-buy-2" src="images/basket.png" />
+                </div>
+            </div>
+
+            <h2 id="meals-header">Meals</h2>
+
+            <div id="meals">
+                <div id="left">
+                    <div id="l-bac"></div>
+                    <img id="l-img" class="dish" />
+                    <img id="l-swap" class="swapbutton" src="images/swap.png" />
+                    <h3 id="l-h3"></h3>
+                    <p id="l-cals"></p>
+                    <p id="l-mins"></p>
+                    <img id="l-buy" src="images/basket.png" />
+                </div>
+
+                <div id="right">
+                    <div id="r-bac"></div>
+                    <img id="r-img" class="dish" />
+                    <img id="r-swap" class="swapbutton" src="images/swap.png" />
+                    <h3 id="r-h3"></h3>
+                    <p id="r-cals"></p>
+                    <p id="r-mins"></p>
+                    <img id="r-buy" src="images/basket.png" />
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

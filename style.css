@@ -1,0 +1,230 @@
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#logo {
+    position: relative;
+    left: 45%;
+    width: 300px;
+    height: auto;
+}
+
+#rec-header {
+    font-size: 40px;
+    font-display: block;
+    text-align: center;
+    margin: 0px 0px 90px 0px;
+}
+
+#meals-header {
+    font-size: 40px;
+    font-display: block;
+    text-align: center;
+    margin: 10px 0px 90px 0px;
+}
+
+#recommended {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0px 0.5px 4px rgb(0, 0, 0, 0.25);
+}
+
+#rec-bac {
+    background-color: rgb(252, 203, 162);
+    width: 400px;
+    height: 400px;
+}
+
+#rec-img {
+    position: relative;
+    top: -60%;
+}
+#rec-h3 {
+    position: relative;
+    top: -60%;
+}
+#rec-cals {
+    position: relative;
+    top: -60%;
+}
+#rec-mins {
+    position: relative;
+    top: -60%;
+}
+#rec-buy {
+    position: relative;
+    top: -52%;
+}
+#rec-bac-2 {
+    background-color: rgb(255, 115, 1);
+    width: 400px;
+    height: 400px;
+}
+#rec-img-2 {
+    position: relative;
+    top: -60%;
+}
+#rec-h3-2 {
+    position: relative;
+    top: -60%;
+}
+#rec-cals-2 {
+    position: relative;
+    top: -60%;
+}
+#rec-mins-2 {
+    position: relative;
+    top: -60%;
+}
+#rec-buy-2 {
+    position: relative;
+    top: -52%;
+}
+#meals {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#l-bac {
+    /*background-color: rgb(252, 151, 115);*/
+    background-color: #9aa167;
+    width: 400px;
+    height: 400px;
+}
+#l-img {
+    position: relative;
+    top: -60%;
+}
+#l-h3 {
+    position: relative;
+    top: -60%;
+}
+#l-cals {
+    position: relative;
+    top: -60%;
+}
+#l-mins {
+    position: relative;
+    top: -60%;
+}
+#l-buy {
+    position: relative;
+    top: -52%;
+}
+
+#r-bac {
+    background-color: #c7db42;
+    width: 400px;
+    height: 400px;
+}
+
+#r-img {
+    position: relative;
+    top: -60%;
+}
+#r-h3 {
+    position: relative;
+    top: -60%;
+}
+#r-cals {
+    position: relative;
+    top: -60%;
+}
+#r-mins {
+    position: relative;
+    top: -60%;
+}
+#r-buy {
+    position: relative;
+    top: -52%;
+}
+
+#r-swap {
+    position: relative;
+    top: -52%;
+}
+.dish {
+    width: 300px;
+    height: auto;
+}
+
+.swapbutton {
+    width: 60px;
+    height: auto;
+    position: relative;
+    top: -50%;
+}
